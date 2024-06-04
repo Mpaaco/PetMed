@@ -1,0 +1,41 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro cliente</title>
+    <link rel="stylesheet" href="stylesCA.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro do animal</h2>
+        <form id="cadastroForm">
+            <div class="form-group">
+                <label for="nome">Nome do animal:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+            <label for="nome">Espécie do animal:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="nome">Raça do animal (Não obrigatório):</label>
+                <input type="text" id="raça" name="raça" required>
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade do animal:</label>
+                <input type="number" id="idade" name="idade" required>
+            </div>
+            <div class="form-group">
+                <label>Macho ou Fêmea:</label>
+                <div class="option-group">
+                    <input type="radio" id="genero-masculino" name="genero" value="Macho">
+                    <label for="genero-masculino">Macho</label>
+                </div>
+                    <input type="radio" id="genero-feminino" name="genero" value="Fêmea">
+                    <label for="genero-feminino">Fêmea</label>
+                </div>
+            <button type="submit"><a href="./Cadastro_animal.html"></a>Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
